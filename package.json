@@ -1,0 +1,23 @@
+{
+  "name": "coffeescript-detector",
+  "version": "0.0.0",
+  "description": "detect if javascript was prepared with coffeescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/wlaurance/coffeescript-detector.git"
+  },
+  "keywords": [
+    "coffeescript",
+    "detector"
+  ],
+  "author": "Will S. Laurance",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wlaurance/coffeescript-detector/issues"
+  },
+  "homepage": "https://github.com/wlaurance/coffeescript-detector"
+}
