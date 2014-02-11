@@ -23,7 +23,8 @@ describe('coffeescript-detector', function() {
     var coffeescript = require('coffee-script');
     csd(
       coffeescript.compile(
-        fs.readFileSync('./sample.coffee').toString()
+        fs.readFileSync('./sample.coffee').toString(),
+        { header: true }
       ),
       function(
         err,
