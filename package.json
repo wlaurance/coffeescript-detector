@@ -1,6 +1,6 @@
 {
   "name": "coffeescript-detector",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "detect if javascript was prepared with coffeescript",
   "main": "index.js",
   "scripts": {
