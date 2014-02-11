@@ -6,7 +6,7 @@ describe('coffeescript-detector', function() {
 
   it('should pass back err if the 1st param is not a string', function(done) {
     csd(1, function(err) {
-      err.toString().should.be.equal('coffeescript-detector usage: fn(string, function)');
+      err.toString().should.be.equal('Error: coffeescript-detector usage: fn(string, function)');
       done();
     });
   });
