@@ -4,7 +4,7 @@
   "description": "detect if javascript was prepared with coffeescript",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/bin/mocha"
+    "test": "./node_modules/.bin/mocha"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/wlaurance/coffeescript-detector/issues"
   },
-  "homepage": "https://github.com/wlaurance/coffeescript-detector"
+  "homepage": "https://github.com/wlaurance/coffeescript-detector",
+  "devDependencies": {
+    "mocha": "~1.17.1"
+  }
 }
