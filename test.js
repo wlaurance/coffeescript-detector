@@ -13,8 +13,8 @@ describe('coffeescript-detector', function() {
 
   it('should pass back null if no cs markings are found', function(done) {
     csd('no coffee found in here', function(err, obj) {
-      err.should.be.equal(undefined);
-      should.beEqual(null, obj);
+      should.equal(null, err);
+      should.equal(null, obj);
       done();
     });
   });
@@ -29,7 +29,7 @@ describe('coffeescript-detector', function() {
         err,
         result
       ) {
-          err.should.be.equal(undefined);
+          should.equal(err, null);
           result.should.have.property('lines');
           var lines = result.lines;
           done();
